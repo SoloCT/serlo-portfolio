@@ -18,7 +18,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Serlo Tam — Senior Risk & Data Analyst",
+  title: "Serlo Tam · Senior Risk & Data Analyst",
   description:
     "Senior Risk & Data Analyst building fraud-detection systems and enterprise data infrastructure that protect $200M+ in assets. SQL · Python · fraud & risk analytics.",
 };

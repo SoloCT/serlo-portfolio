@@ -60,7 +60,7 @@ export function Experience() {
                 <h3 className="mt-1.5 font-display text-xl font-semibold">{job.role}</h3>
                 <div className="text-sm text-muted">
                   {job.org}
-                  {job.dept ? ` — ${job.dept}` : ""} · {job.location}
+                  {job.dept ? ` · ${job.dept}` : ""} · {job.location}
                 </div>
               </Reveal>
               <ul className="mt-4 flex flex-col gap-3">
