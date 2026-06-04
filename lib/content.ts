@@ -226,11 +226,6 @@ export const projects: Project[] = [
     blurb: "An AI long-form fiction harness that plans, drafts and continues serialized novels while keeping world state consistent.",
     tags: ["LLMs", "Python", "Agents"],
   },
-  {
-    name: "Instagram theme pages",
-    blurb: "A faceless content venture (AI news + science) with a Gemini/Veo visual pipeline and a Notion-driven, partly-autonomous production workflow.",
-    tags: ["Gemini", "Veo", "Notion", "Content"],
-  },
 ];
 
 export type Education = { school: string; degree: string; year: string };
