@@ -11,10 +11,11 @@ export const profile = {
   roleAccent: "Risk & Data",
   roleTail: "Analyst",
   location: "San Francisco, CA",
-  lede: "I build fraud-detection systems and enterprise data infrastructure that protect hundreds of millions in assets — turning unstructured chaos into automated pipelines, governance standards, and decisions executives act on.",
+  lede: "AI-native analyst who orchestrates LLM tooling to build fraud-detection systems and enterprise data infrastructure that protect hundreds of millions in assets — turning unstructured chaos into automated pipelines, governance standards, and decisions executives act on.",
   about: [
     "Senior Risk & Data Analyst at CIBC US (Corporate Security), where I was the founding data-literate hire and built the team's entire analytics function from the ground up. I turn messy operational reality into automated pipelines, fraud-detection systems, and governance standards the whole US organization now runs on.",
-    "AI-native (I live in Claude Code and Cursor), trilingual in English, Cantonese and Mandarin, an active DeFi/ETH participant, and a compulsive builder of side projects — from automation fleets to AI content tools.",
+    "I work AI-native: I orchestrate LLM tooling — Claude Code, Cursor, multi-agent workflows — to prototype, automate, and ship faster than traditional analyst workflows allow, and I treat building new AI-orchestration skills as a core part of the craft. I bring those modern practices into a traditionally slow environment.",
+    "Trilingual in English, Cantonese and Mandarin, an active DeFi/ETH participant, and a compulsive builder of side projects — from automation fleets to AI content tools.",
   ],
 };
 
@@ -112,6 +113,15 @@ export const experience: ExperienceItem[] = [
         ".",
       ],
       [
+        "Works ",
+        { hl: "AI-native" },
+        " — orchestrates ",
+        { hl: "Claude Code, Cursor and multi-agent workflows" },
+        " to build pipelines, internal tools and prototypes faster, bringing modern AI-assisted practices into a traditional bank and continuously ",
+        { hl: "building new AI-orchestration skills" },
+        " that level up how the team ships.",
+      ],
+      [
         "Leads ",
         { hl: "2 junior analysts" },
         " and mentors interns — standardizing SQL/Python practices and reusable frameworks, lifting team delivery efficiency ",
@@ -169,6 +179,10 @@ export type SkillGroup = { group: string; items: string[] };
 
 export const skills: SkillGroup[] = [
   {
+    group: "AI & Orchestration",
+    items: ["AI-native workflows", "Claude Code · Cursor", "AI orchestration", "Multi-agent workflows", "Agent & tool building", "Prompt engineering"],
+  },
+  {
     group: "Languages & Engineering",
     items: ["Python", "SQL", "dbt", "FastAPI", "SQLAlchemy", "scikit-learn", "ETL pipelines", "API integration", "Data modeling", "Geospatial"],
   },
@@ -185,8 +199,8 @@ export const skills: SkillGroup[] = [
     items: ["Fraud & anomaly detection", "Master data management", "Data governance", "RCSA · CIRA", "Operational risk", "Regulatory reporting", "UAT", "DTEX", "FIS/BIC"],
   },
   {
-    group: "AI & Leadership",
-    items: ["Claude Code · Cursor", "AI orchestration", "Prompt engineering", "Team management", "Executive presentations", "Org change management"],
+    group: "Leadership",
+    items: ["Team management", "Mentoring & skill-building", "Executive presentations", "Stakeholder management", "Org change management"],
   },
   {
     group: "Languages",
