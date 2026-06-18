@@ -6,14 +6,14 @@ export type Bullet = string | Segment[];
 
 export const profile = {
   name: "Serlo Tam",
-  eyebrow: "San Francisco · Data & Risk Analytics",
+  eyebrow: "San Francisco · Risk, Governance & Data",
   roleLead: "Senior",
   roleAccent: "Risk & Data",
   roleTail: "Analyst",
   location: "San Francisco, CA",
-  lede: "AI-native analyst who orchestrates LLM tooling to build fraud-detection systems and enterprise data infrastructure that protect hundreds of millions in assets, turning unstructured chaos into automated pipelines, governance standards, and decisions executives act on.",
+  lede: "AI-native risk analyst who builds and runs risk programs and the data behind them, from fraud-detection systems and an insider-risk program built from scratch to governance standards and the exec- and regulator-facing reporting leadership acts on, protecting hundreds of millions in assets and turning unstructured chaos into automated, decision-ready intelligence.",
   about: [
-    "Senior Risk & Data Analyst at CIBC US (Corporate Security), where I was the founding data-literate hire and built the team's entire analytics function from the ground up. I turn messy operational reality into automated pipelines, fraud-detection systems, and governance standards the whole US organization now runs on.",
+    "Senior Risk & Data Analyst at CIBC US (Corporate Security), where I was the founding data-literate hire, built the team's entire analytics function from the ground up, and ran it solo as interim lead for eight months. I build and run risk programs, an insider-risk monitoring program from scratch, deficiency remediation, and risk policy and taxonomy with our second-line risk team, and I present the results to the Operational Risk Committee, executives, and regulators.",
     "I work AI-native: I orchestrate LLM tooling like Claude Code, Cursor, and multi-agent workflows to prototype, automate, and ship faster than traditional analyst workflows allow, and I treat building new AI-orchestration skills as a core part of the craft. I bring those modern practices into a traditionally slow environment.",
     "Trilingual in English, Cantonese and Mandarin, an active DeFi/ETH participant, and a compulsive builder of side projects, from automation fleets to AI content tools.",
   ],
@@ -51,6 +51,18 @@ export const experience: ExperienceItem[] = [
     location: "Remote",
     bullets: [
       [
+        "Ran the ",
+        { hl: "risk & analytics team solo as interim lead for 8 months" },
+        " after the director departed and the role sat open, owning reporting, governance and stakeholder delivery with no drop in output.",
+      ],
+      [
+        "Building an ",
+        { hl: "insider-risk monitoring program from the ground up" },
+        ": team structure, SOPs, a ",
+        { hl: "fraud & case-type taxonomy" },
+        ", and the data models behind each case type, defining how the function detects, classifies and investigates risk.",
+      ],
+      [
         "Built an automated ",
         { hl: "fraud-detection pipeline" },
         " in Python & SQL over ",
@@ -69,9 +81,23 @@ export const experience: ExperienceItem[] = [
         " and surfaced employees exfiltrating and selling PII on the dark web.",
       ],
       [
-        "Currently ",
-        { hl: "leading UAT for the DTEX insider-risk rollout" },
-        " as one of three core testers and de facto technical lead, escalating data-extraction architecture, S3/JSON formats, push-vs-pull cadence and schema drift into clear status for directors and the steering committee.",
+        "Assessed a ",
+        { hl: "third-party security vendor (DTEX)" },
+        " as a core tester and de facto technical lead, evaluating its data handling and escalating ",
+        { hl: "risk and data-protection gaps" },
+        " to directors and the steering committee.",
+      ],
+      [
+        "Stand up and maintain ",
+        { hl: "risk policies and taxonomy" },
+        " with second-line risk & compliance (",
+        { hl: "Three Lines of Defense" },
+        "), operationalizing policy and regulatory updates into procedures and controls.",
+      ],
+      [
+        "Spearhead ",
+        { hl: "remediation of self-assessed risk and deficiency items" },
+        ", coordinating across IT, HR, Physical Security, external fraud and more to acquire the data needed to close gaps.",
       ],
       [
         "Engineered an enterprise ",
@@ -92,13 +118,6 @@ export const experience: ExperienceItem[] = [
         ", integrating Facilities, HR, IT and international sources via Python, SQL and the Geocoding API into a single source of truth with 20+ enriched attributes powering geospatial risk analytics.",
       ],
       [
-        "Designed a ",
-        { hl: "physical asset-tracking system" },
-        " and real-time dashboard that took equipment losses from ",
-        { hl: "$100K/quarter to near-zero" },
-        ".",
-      ],
-      [
         "Built a quantitative ",
         { hl: "risk-scoring methodology" },
         " for physical security across 60+ locations, and secured executive approval to integrate third-party crime data into the framework.",
@@ -106,9 +125,11 @@ export const experience: ExperienceItem[] = [
       [
         "Built the ",
         { hl: "analytics function from scratch" },
-        " as the sole data-literate resource, building data models from highly unstructured sources plus ",
+        " as the founding data hire, modeling highly unstructured sources into ",
         { hl: "15+ automated pipelines" },
-        " that cut monthly reporting from ",
+        " and ",
+        { hl: "every Corporate Security dashboard" },
+        " (Tableau/Power BI), cutting monthly reporting from ",
         { hl: "80 hours to 8" },
         ".",
       ],
@@ -120,6 +141,15 @@ export const experience: ExperienceItem[] = [
         " to build pipelines, internal tools and prototypes faster, bringing modern AI-assisted practices into a traditional bank and continuously ",
         { hl: "building new AI-orchestration skills" },
         " that level up how the team ships.",
+      ],
+      [
+        "As ",
+        { hl: "Data Steward & Senior Records Officer" },
+        ", owns the analytics and ",
+        { hl: "project management of every exec- and regulator-facing deck" },
+        ", presenting to the ",
+        { hl: "Operational Risk Committee, executives and regulators" },
+        " (fraud risk councils, Federal Risk Board, IDFPR) to support oversight, governance and regulatory readiness.",
       ],
       [
         "Leads ",
@@ -134,16 +164,6 @@ export const experience: ExperienceItem[] = [
         ", built the ROI case, and presented to the C-suite, resulting in a ",
         { hl: "dedicated background-screening team" },
         ".",
-      ],
-      [
-        "Serves as ",
-        { hl: "Data Steward & Senior Records Officer" },
-        ", owning data-governance standards and acting as primary point of contact for analytics, audit support and regulatory inquiries across US operations.",
-      ],
-      [
-        "Secretary to the ",
-        { hl: "Insider Risk Governance Council" },
-        ", owning quarterly executive presentations and Power BI scorecards, facilitating C-suite reviews across Corporate Security, HR and IT.",
       ],
     ],
   },
@@ -183,6 +203,10 @@ export const skills: SkillGroup[] = [
     items: ["AI-native workflows", "Claude Code · Cursor", "AI orchestration", "Multi-agent workflows", "Agent & tool building", "Prompt engineering"],
   },
   {
+    group: "Risk & Governance",
+    items: ["Insider risk & DLP", "Fraud & anomaly detection", "Risk program build", "SOPs & risk taxonomy", "Deficiency remediation", "Three Lines of Defense (2LOD)", "Third-party / vendor risk", "Data governance", "Master data management", "Regulatory reporting", "Operational risk", "UAT · DTEX"],
+  },
+  {
     group: "Languages & Engineering",
     items: ["Python", "SQL", "dbt", "FastAPI", "SQLAlchemy", "scikit-learn", "ETL pipelines", "API integration", "Data modeling", "Geospatial"],
   },
@@ -195,12 +219,8 @@ export const skills: SkillGroup[] = [
     items: ["Tableau", "Power BI", "Excel · DAX · Power Query", "Alteryx", "Power Automate", "Jupyter"],
   },
   {
-    group: "Risk & Compliance",
-    items: ["Fraud & anomaly detection", "Master data management", "Data governance", "RCSA · CIRA", "Operational risk", "Regulatory reporting", "UAT", "DTEX", "FIS/BIC"],
-  },
-  {
     group: "Leadership",
-    items: ["Team management", "Mentoring & skill-building", "Executive presentations", "Stakeholder management", "Org change management"],
+    items: ["Interim team lead", "Program & project management", "Team management & mentoring", "Executive & regulator presentations", "Stakeholder management", "Org change management"],
   },
   {
     group: "Languages",
@@ -211,6 +231,16 @@ export const skills: SkillGroup[] = [
 export type Project = { name: string; blurb: string; tags: string[] };
 
 export const projects: Project[] = [
+  {
+    name: "ReRoom",
+    blurb: "A cross-platform PWA that scans or imports a floor plan and reimagines it, with footprint-locked wall editing and AI vision that auto-detects rooms from a photo.",
+    tags: ["Next.js", "React Konva", "AI Vision", "TypeScript"],
+  },
+  {
+    name: "Clicky",
+    blurb: "A Windows AI desktop companion: a summonable corner buddy that captures your screen and answers questions about it, built on the Claude Agent SDK.",
+    tags: ["Python", "PySide6", "Claude Agent SDK"],
+  },
   {
     name: "cronboard",
     blurb: "A personal control panel for scheduled AI agents and local cron, a Next.js + FastAPI dashboard to monitor, trigger and track recurring jobs.",
